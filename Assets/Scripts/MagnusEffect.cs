@@ -16,9 +16,8 @@ public class MagnusEffect : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Kick();
-            //ApplyMagnusEffect();
-        }
-        ApplyMagnusEffect();
+            ApplyMagnusEffect();
+        }        
     }
 
     void Kick()
